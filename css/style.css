@@ -17,6 +17,7 @@
   html,body{
     height: 100%;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   header{
@@ -54,4 +55,21 @@
     height: 840px;
     border-radius: 50%;
     background-color: #327241;
+  }
+
+  section img{
+    margin-top: -20px;
+    width: 300px;
+  }
+
+  .social-media{
+    position: absolute;
+    right: 410px;
+    top: 110px;
+  }
+
+  .social-media img{
+    width: 16px;
+    display: block;
+    margin: 15px 0;
   }
