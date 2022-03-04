@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
   }
 
   .center{
@@ -113,7 +114,6 @@
     width: 600px;
     display: flex;
     margin-left: 650px;
-    list-style: none;
     padding-right: 50px;
     margin-top: 60px;
   }
