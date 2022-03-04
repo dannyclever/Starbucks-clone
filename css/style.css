@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   .center{
@@ -36,10 +36,10 @@
   }
   
   .menu a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 40px
   }
 
   section.sobre{
@@ -75,17 +75,54 @@
   }
 
   .texto-sobre {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
-  .texto-sobre h1 {
-    font-size: 50px;
+  .texto-sobre h2 {
+   color:#333;
+   font-size: 4em;
+   line-height: 1.2em;
+   font-weight: 500;
   }
 
+  .texto-sobre span {
+   color: #017143;
+   font-size: 1.1em;
+   font-weight: 900;
+   }
   .texto-sobre p{
     margin: 20px 0;
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
+    color: #333;
+    font-size: 17px;
     max-width: 800px;
   }
+
+  .texto-sobre button{
+    border: 0;
+    background-color: #327241;
+    color: white;
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  .sobre ul{
+    width: 600px;
+    display: flex;
+    margin-left: 650px;
+    list-style: none;
+    padding-right: 50px;
+    margin-top: 60px;
+  }
+
+  .sobre li{
+    margin: 0 20px;
+  }
+  
+  .sobre li img{
+    width: 50px;
+  }
+  
